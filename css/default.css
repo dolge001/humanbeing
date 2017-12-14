@@ -1,0 +1,503 @@
+/* All CSS styles go here */
+
+/* Nav Bar */
+
+body{
+    background: whitesmoke;
+    overflow-x: hidden;
+
+
+}
+a{
+    text-decoration: none;
+    padding-left: .7%;
+    color: rgba(180,172,82,0.86);
+
+
+}
+#navbar{
+
+    height: 70px;
+    width: 100%;
+    margin-bottom: 10%;
+    background: transparent;
+
+
+    position: fixed;
+    display: inline-block;
+    padding-top:2%;
+
+    padding-left: 3.7%;
+    z-index: 10;
+    font-family: "Roboto Condensed";
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: .05em;
+
+}
+/*.logo{
+    margin-top: 20px;
+    height: 50px;
+    width:50px;
+    background-image: url("../images/idkidk.png");
+    opacity: .3;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 90%;
+    position: fixed;
+    z-index: 25;
+
+}*/
+
+
+
+
+
+
+
+/* Content Wrapper */
+
+#contentWrapper{
+    height: auto;
+    width:  100%;
+    background:black;
+    overflow: hidden;
+    position: absolute;
+
+
+}
+
+/* Landing Page */
+
+#landingPage{
+    height: 550px;
+    width: 100%;
+    background-image: url("../images/static.gif");
+    /*background: yellow;*/
+
+}
+
+.landingImage{
+    height: 550px;
+    width: 100%;
+    background-image: url("../images/brainbrain.png");
+
+
+
+}
+.landingText{
+
+
+    font-family: "Georgia";
+    opacity: 1;
+    font-size: 6em;
+    padding-top: 21%;
+    padding-left: 4%;
+    letter-spacing: 0.05em;
+    color: rgba(171,119,0,0.86);
+
+
+}
+
+/* Art Page */
+#artHeader{
+    height: 20px;
+    width: 100%;
+    background: transparent;
+    font-family: "Georgia";
+    color: gray;
+    font-size: 2em;
+    padding-top: 2%;
+    padding-left: 50%;
+    z-index: 35;
+    opacity: .4;
+}
+#artPage{
+    height: auto;
+    width: 100%;
+    background: black;
+    
+    position: relative;
+
+
+
+
+}
+
+
+
+/* DESIGN PAGE*/
+
+#designHeader{
+    height: 10px;
+    width: 100%;
+    background: transparent;
+    font-family: "DIN Condensed";
+    color: gray;
+    font-size: 2em;
+    padding-top: 2%;
+    padding-left: 50%;
+    z-index: 35;
+    opacity: .4;
+}
+#designPage{
+    height: auto;
+    width: 100%;
+    background: black;
+    position: relative;
+
+}
+
+/* JOURNAL PAGE*/
+#journalPage{
+    height: auto;
+    width: 100%;
+    background: black;
+    position: relative;
+
+}
+
+/*!* ABOUT PAGE*!*/
+/*#aboutPage{*/
+    /*height: 800px;*/
+    /*width: 100%;*/
+    /*background: cyan;*/
+    /*position: relative;*/
+    /*font-size: 7em;*/
+    /*padding-left: 5%;*/
+    /*padding-top: 10%;*/
+
+    /*overflow-x: hidden;*/
+    /*color:black;*/
+
+
+
+/*}*/
+
+
+
+/*.aboutCopy2{*/
+    /*width: 520px;*/
+    /*height: 190px;*/
+    /*font-size: 25pt;*/
+    /*color: black;*/
+    /*margin-top: 2%;*/
+    /*margin-left: 40%;*/
+    /*padding-right:10px;*/
+    /*padding-top: 5px;*/
+
+
+    /*background: transparent;*/
+
+
+
+/*}*/
+/*.aboutCopy3{*/
+    /*width: 520px;*/
+    /*height: 240px;*/
+    /*font-size: 18pt;*/
+    /*color: black;*/
+
+
+    /*margin-left: 10%;*/
+
+
+    /*letter-spacing: .05mm;*/
+    /*color: darkcyan;*/
+
+
+    /*background: cyan;*/
+
+
+
+/*}*/
+
+
+/* FASHION PAGE*/
+#fashionPage{
+    height: auto;
+    width: 100%;
+    background: black;
+    position: relative;
+
+}
+/* TRAVEL PAGE*/
+
+#travelPage{
+    height: auto;
+    width: 100%;
+    background: black;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+/* HORIZONTAL SCROLL */
+
+
+
+/*.surroundContainer{*/
+
+    /*background: transparent;*/
+
+    /*height: 600px;*/
+    /*padding-top: 5%;*/
+    /*overflow: auto;*/
+    /*white-space: nowrap;*/
+    /*margin-bottom: 2%;*/
+    /*margin-top: 2%;*/
+
+
+
+
+
+/*}*/
+
+/*.hpage {*/
+    /*display: inline-block;*/
+    /*height: 500px;*/
+    /*width: 90%;*/
+    /*padding-left: -1%;*/
+    /*padding-top: 2%;*/
+    /*background:transparent;*/
+
+
+
+
+/*}*/
+
+/*.contentcontainer_1{*/
+    /*width: 20%;*/
+    /*height: 100%;*/
+    /*background: white;*/
+    /*opacity: .9;*/
+
+    /*display: inline-block;*/
+    /*margin-left: 4.7%;*/
+    /*overflow: hidden;*/
+
+
+
+
+/*}*/
+/*.scroll{*/
+    /*font-family: "Aktiv Grotesk";*/
+    /*color: rgba(9,30,33,0.86);*/
+
+
+/*}*/
+
+
+
+/* columns side by side */
+.column {
+    margin-left: 10px;
+    float: left;
+    width:100%;
+    height: 100%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0 0 0 0px;
+    display: inline-block;
+
+    opacity: .9;
+    background: black;
+
+}
+
+/* cols */
+@media (max-width: 400px) {
+    .column {
+
+        display: inline-block;
+        background: transparent;
+        height: 200px;
+    }
+}
+
+
+.container {
+    height: 100%;
+    padding-left: 8px;
+    background: transparent;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+/*.container::after, .row::after {*/
+    /*content: "";*/
+    /*clear: both;*/
+    /*display: table;*/
+/*}*/
+
+.title {
+    color: ghostwhite;
+    opacity: .85;
+    font-family: sans-serif;
+    font-size: small;
+    line-height: 1.2;
+}
+
+.space{
+    font-size: xx-small;
+}
+.xsmall{
+    font-size: .5pt;
+}
+
+.button {
+    margin-left: 8px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: snow;
+    text-align: center;
+    cursor: inherit;
+    width: 80%;
+}
+
+.button:hover {
+    background-color: cadetblue;
+    z-index: 40;
+
+}
+
+
+
+
+
+
+
+
+
+.surroundContainer{
+
+    background: repeating-linear-gradient( whitesmoke,whitesmoke, transparent);
+    background-opacity: .5;
+
+
+
+    height: 600px;
+    padding-top: 5%;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+
+
+
+
+}
+
+.hpage {
+    display: inline-block;
+    height: 525px;
+    width: 25%;
+    padding-left: -1%;
+    padding-top: 2%;
+    background:transparent;
+
+
+
+
+}
+
+.contentcontainer_1{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    opacity: .9;
+
+    display: inline-block;
+    margin-left:.01%;
+    overflow: hidden;
+
+
+
+
+}
+.scroll{
+    font-family: "Aktiv Grotesk";
+    color: rgba(9,30,33,0.86);
+    z-index: 2;
+
+
+}
+
+
+
+/*!* trying something *!*/
+
+
+/*!* Three columns side by side *!*/
+/*.column {*/
+    /*float: left;*/
+    /*width:15%;*/
+    /*margin-bottom: 16px;*/
+    /*margin-top: 10px;*/
+    /*padding: 0 8px;*/
+    /*display: inline-block;*/
+/*}*/
+
+
+/*@media (max-width: 100px) {*/
+    /*.column {*/
+
+        /*display: inline-block;*/
+    /*}*/
+/*}*/
+
+/*!*  *!*/
+/*.card {*/
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*!* Some left and right padding inside the container *!*/
+/*.container {*/
+    /*height: 200px;*/
+    /*padding: 0 16px;*/
+/*}*/
+
+/*!*  *!*/
+/*.container::after, .row::after {*/
+    /*content: "";*/
+    /*clear: both;*/
+    /*display: table;*/
+/*}*/
+
+/*.title {*/
+    /*color: grey;*/
+/*}*/
+
+/*.button {*/
+    /*border: none;*/
+    /*outline: 0;*/
+    /*display: inline-block;*/
+    /*padding: 8px;*/
+    /*color: white;*/
+    /*background-color: #000;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+    /*width: 100%;*/
+/*}*/
+
+/*.button:hover {*/
+    /*background-color: #555;*/
+/*}*/
+
+
+
+
+
+
+
